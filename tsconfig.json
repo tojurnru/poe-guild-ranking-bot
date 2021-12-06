@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "strict": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true, // For MIKRO ORM ts entities
+    "skipLibCheck": true // UNTIL this issue is fixed https://github.com/SeanSobey/ChartjsNodeCanvas/issues/84
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}
