@@ -1,0 +1,9 @@
+build/
+node_modules/
+local/
+
+.env
+.eslintcache
+.npm
+
+*.log
